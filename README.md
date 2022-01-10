@@ -7,3 +7,6 @@ In diesem Repository findet ihr den Code aus dem Kurs und einige zusätzliche Sn
 
 Boris 
 https://boris-perisset.github.io/c4ta-artwork/ml5/myFirst-ML5/
+
+Mike
+https://michaeleymann.github.io/ML4TA/myDayOne/
