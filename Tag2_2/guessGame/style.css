@@ -1,0 +1,23 @@
+html, body {
+  margin: 0;
+  padding: 0;
+}
+
+canvas {
+  display: block;
+}
+
+
+button {
+  display: inline-block;
+  border: 0.16em solid black;
+  border-radius:2em;
+  color: black;
+  background-color: rgb(248, 248, 248);
+  padding: 0.3em 2em;
+  margin: 0 0.1em 0.1em 2em;
+}
+
+button:hover {
+  border-color: green;
+}
