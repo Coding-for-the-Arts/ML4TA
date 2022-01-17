@@ -13,3 +13,6 @@ https://michaeleymann.github.io/ML4TA/myDayOne/
 
 Evelyn\
 https://github.com/Wilhlem/PosteNet.git
+
+Chris\
+https://github.com/dersenn/C4TA-ml
