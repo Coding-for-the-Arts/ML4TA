@@ -77,3 +77,8 @@ function modelReady() {
   console.log("model ready");
   model.normalizeData();
 }
+
+for( i = 0; i<table.getRowCount(); i++) {
+
+  
+}
