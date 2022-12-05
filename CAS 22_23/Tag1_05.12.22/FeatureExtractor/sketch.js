@@ -29,7 +29,11 @@ function setup() {
 }
 
 function draw() {
+  push();
+  scale(-1,1)
+  translate(-width, 0);
   image(video, 0, 0);
+  pop()
 }
 
 function modelReady() {
