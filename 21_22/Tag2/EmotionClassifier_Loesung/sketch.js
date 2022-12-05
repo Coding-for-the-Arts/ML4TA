@@ -103,11 +103,6 @@ function initalizeButtons() {
 
             }
 
-
-
-
-           
-
         })
     }
 
