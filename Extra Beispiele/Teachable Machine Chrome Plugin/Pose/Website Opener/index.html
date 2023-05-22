@@ -1,0 +1,66 @@
+<html>
+  <head>
+    <meta charset="UTF-8" />
+    <title> </title>
+    <script src="https://cdn.jsdelivr.net/npm/@tensorflow/tfjs@1.3.1/dist/tf.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/@teachablemachine/pose@0.8/dist/teachablemachine-pose.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/p5.js/1.1.9/p5.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/p5.js/1.1.9/addons/p5.dom.min.js"></script>
+    <script src="pose.js"></script>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Roboto:wght@100&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" type="text/css" href="style.css" />
+  </head>
+
+  <body>
+    <script src="sketch.js"></script>
+    <h1>Pose Your Website</h1>
+    <div id="sketch-container"></div>
+    <div id="container">
+      <input
+        type="text"
+        id="inp"
+        name="input-field"
+        value=""
+        placeholder="Website"
+      />
+    </div>
+
+    <div id="user-inputs">
+      <p>
+        Make sure your classes are named as follows : <br />
+        "A" for Website 1 <br />
+        "B" for Website 2 <br />
+        "Submit" for Opening a Tab <br />
+        "Hold" for Holding
+      </p>
+      <h2>User Inputs</h2>
+      <input
+        type="text"
+        id="model"
+        name="input-field"
+        value=""
+        placeholder="Teachable Machine Model"
+      />
+      <input
+        type="text"
+        id="websiteA"
+        name="input-field"
+        value=""
+        placeholder="Website 1"
+      />
+      <input
+        type="text"
+        id="websiteB"
+        name="input-field"
+        value=""
+        placeholder="Website 2"
+      />
+      <button type="submit" id="start" onClick="userInput()">Start</button>
+    </div>
+  </body>
+</html>

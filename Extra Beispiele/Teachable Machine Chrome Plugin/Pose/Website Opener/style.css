@@ -1,0 +1,98 @@
+html, body {
+    margin: 0;
+    padding: 0;
+    background-color:#333333;
+    font-family: 'Roboto', sans-serif;
+    overflow: hidden;
+  }
+
+h1 {
+ font-size: 8vh;
+ color: white;
+ position: absolute;
+ top: 5%;
+ left: 50%;
+ margin-right: -50%;
+ transform: translate(-50%, -50%);
+ z-index: 10;
+}
+
+h2 {
+ font-size: 4vh;
+ color: #7D5BA6;
+ margin-bottom:-0.2vh;
+}
+
+p {
+    font-size: 2vh;
+    color: white;
+    margin-bottom:-0.2vh;
+   }
+
+#sketch-container {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    margin-right: -50%;
+    transform: translate(-50%, -50%);
+ }
+
+#container {
+    position: absolute;
+    top: 90%;
+    left: 50%;
+    margin-right: -50%;
+    transform: translate(-50%, -50%); 
+}
+
+input[type="text"] {
+    padding: 10px;
+    margin-top: 10px;
+    width: 300px;
+    font-size: 16px;
+    border-radius: 5px;
+    border: 2px solid white;
+    background-color: #86a59c20 ;
+    color: white;
+    font-family: 'Roboto', sans-serif;
+}
+
+button[type="submit"] {
+    padding: 10px 20px;
+    margin-top: 20px;
+    font-size: 16px;
+    border-radius: 5px;
+    border: none;
+    background-color: #7D5BA6;
+    color: white;
+    cursor: pointer;
+    font-family: 'Roboto', sans-serif;
+}
+
+button[type="submit"]:hover {
+    color: #89CE94;
+    font-size: 20px;
+
+}
+
+button[type="submit"]:active {
+    background-color: #89CE94;
+    color: white;
+}
+
+
+#user-inputs {
+    position: absolute;
+    top: 45%;
+    left: 91%;
+    margin-right: -50%;
+    transform: translate(-50%, -50%);
+    width: 200px;
+  
+}
+
+#user-inputs input[type="text"] {
+    width: 200px;
+    border:none;
+}
+
